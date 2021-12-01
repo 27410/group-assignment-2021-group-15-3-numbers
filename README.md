@@ -7,6 +7,7 @@ iYO844(GSM) is a module to prove cell factory strategy. Bacillus subtilis is a c
 
 ## Project overview
 In this database, you can find files GSM General.ipynb (i.e., iYO844 module)， Carbon Source and Oxygen Optimization.ipynb, Gene Knockout Strategies.ipynb (i.e., knockout and over-express).
+
 All of the pictures used in the report are in pics file.
 
 
