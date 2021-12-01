@@ -8,8 +8,12 @@ iYO844(GSM) is a module to prove cell factory strategy. Bacillus subtilis is a c
 ## Project overview
 In file GSM General.ipynb, it expresses the information of module iYO844 and inserts this module to simulate.
 
-In file Carbon Source and Oxygen Optimization.ipynb, we show the max yield of product and biomass in different situations (e.g., Anaerobic and Aerobic)
+In file Carbon Source and Oxygen Optimization.ipynb, we show the max yield of product and biomass in different situations (e.g., Anaerobic and Aerobic).
 
 In file Gene Knockout Strategies.ipynb, you can find our strategies to increase the yield of products. After simulation, The model predictions are not expected to be completely accurate. 
+
+In file FSEOF.ipynb, we analysis flux scanning based on enforced objective flux.
+
+In file OptGene.ipynb, we use optgene to choose genes. However, there is no result.
 
 All of the pictures used in the report are in pics file.
