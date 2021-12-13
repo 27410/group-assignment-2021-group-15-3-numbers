@@ -1,19 +1,19 @@
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/27410/[PUT-YOUR-REPOSITORY-HERE]/main)
 
-# 27410 - Group assignment - Group [Group Number] - [TITLE]
+# 27410 - Group assignment - Group 15 - GSM reconstruction for Bacillus subtilis producing riboflavin
 
-> Dear students, thank you for accepting the group assignment. Please fill in the
-> requested information below and above ([Group Number] and [TITLE]) and remove this quoted part before submission (everything prepended with a >).
-> Please also replace `[PUT-YOUR-REPOSITORY-HERE]` up in the first line 👆 with the name of your repository here on GitHub.
-> That way someone can click on the Binder badge icon and open your project in Jupyter lab to explore it.
-> For this to work you will also have to keep `requirements.txt` up to date (by running `pip freeze > requirements.txt`).
-> Furthermore, this will only work if you decide to make your repository public (which you can do under Settings -> Options),
-> which I would encourage you to do – up to you. A lot of good science happens out in the open these days.
-> Good luck!
-
-## Project summary (<300 words)
-Describe the overall aim of your project and what you have achieved.
+## Project summary 
+iYO844(GSM) is a module to prove cell factory strategy. Bacillus subtilis is a cell factory to produce riboflavin. This module has high consistency scores and metabolic coverage, which means it can better simulate cell factories. Two plans were used to increase the yield of riboflavin. The first one is to knock out two different genes. The second one is to knock out one gene and over-express another one. However, both of them cannot increase the yield.
 
 ## Project overview
-Describe how your project is organized ...
+In file GSM General.ipynb, it expresses the information of module iYO844 and inserts this module to simulate.
 
+In file Carbon Source and Oxygen Optimization.ipynb, we show the max yield of product and biomass in different situations (e.g., Anaerobic and Aerobic).
+
+In file Gene Knockout Strategies.ipynb, you can find our strategies to increase the yield of products. After simulation, The model predictions are not expected to be completely accurate. 
+
+In file FSEOF.ipynb, we analysis flux scanning based on enforced objective flux.
+
+In file OptGene.ipynb, we use optgene to choose genes. However, there is no result.
+
+All of the pictures used in the report are in pics file.
